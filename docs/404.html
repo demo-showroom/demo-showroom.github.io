@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sol Naciente · Showroom</title>
+    <style>
+      html,body{height:100%;margin:0;background:#0B0B0C;color:#fff;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;}
+      .wrap{min-height:100%;display:flex;align-items:center;justify-content:center;padding:24px;box-sizing:border-box;text-align:center;}
+      .card{background:#141416;border:1px solid rgba(255,210,31,.3);border-radius:20px;padding:28px;max-width:360px;}
+      h1{color:#FFD21F;font-size:18px;margin:0 0 8px;}
+      p{color:rgba(255,255,255,.6);font-size:13px;margin:0 0 16px;}
+      a{display:inline-block;background:#FFD21F;color:#000;border-radius:12px;padding:12px 22px;font-weight:800;font-size:14px;text-decoration:none;margin:4px;}
+      a.ghost{background:rgba(255,255,255,.1);color:#fff;}
+    </style>
+    <script>
+      // Si cayó en /docs/* roto, volver a la raíz una sola vez (sin loops)
+      (function () {
+        if (location.pathname.indexOf("/docs") !== -1) {
+          location.replace("../");
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="card">
+        <h1>☀ Sol Naciente · Showroom</h1>
+        <p>Esta página no existe. Volvé al showroom del BMW X6.</p>
+        <a href="./">Abrir showroom</a>
+        <a class="ghost" href="./docs/">Versión compilada</a>
+      </div>
+    </div>
+  </body>
+</html>
